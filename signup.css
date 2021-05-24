@@ -1,0 +1,42 @@
+form{
+    background-image: url(img/signup.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 80px;
+    font-family: 'New Tegomin', sans-serif;
+    font-weight: bolder;
+    padding: 20px;
+}
+input[type=text], input[type=password],input[type=number] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+input[type=text]:focus {
+    background-image: linear-gradient(to right bottom, #dff3f6, #e8f5fb, #f2f8fe, #fafbfe, #ffffff);
+}
+.error input[type=text], .error input[type=password], .error input[type=number] {
+    background-color: #ffdddd;
+    border: 5px solid  rgb(211, 73, 63);
+      
+}
+.hidden {
+    display: none;
+}
+.submit{
+    width: max-content;
+    background-color: whitesmoke;
+    padding: 10px;
+    margin: 2px;
+    cursor: pointer;
+    font-family: 'New Tegomin', sans-serif;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.submit:hover{
+    background-color:  rgb(211, 73, 63);
+    color: white;
+}
